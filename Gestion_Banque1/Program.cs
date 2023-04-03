@@ -20,6 +20,15 @@ Console.WriteLine(Client1.Prenom);
 Console.WriteLine(Client1.Nom);
 Console.WriteLine(Client1.DateNaiss);
 
+Personne Client2 = new Personne() // autre méthode pour instancier (plus rapide)
+{
+    Nom = "Doe2",
+    Prenom = "John2",
+    DateNaiss = new DateTime(1900, 12, 31)
+};
+
+Personne Client3 = new(); // marche aussi, pas top 
+
 
 Console.WriteLine("________________________");
 
