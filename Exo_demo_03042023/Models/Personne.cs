@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exo_demo_03042023
+namespace Exo_demo_03042023.Models
 {
     public enum Genres // bien penser à mettre les enum en public (sinon par défaut elles vont se mettre en internal) => prendre cette habitude
     {
