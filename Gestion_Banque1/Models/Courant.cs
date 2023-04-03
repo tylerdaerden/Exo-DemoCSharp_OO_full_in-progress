@@ -56,6 +56,12 @@ namespace Gestion_Banque1.Models
 
         #region Methodes
 
+
+        /// <summary>
+        /// (Ma petite méthode) retire un montant au solde
+        /// </summary>
+        /// <param name="montant"> el famoso montant, comme dit Yves</param>
+
         public void Retrait(double montant)
         {
             if (montant <= 0)
@@ -73,6 +79,11 @@ namespace Gestion_Banque1.Models
                 Solde -= montant;
             }
         }
+
+        /// <summary>
+        /// (ma 2ème petite methode) ajoute un montant au solde 
+        /// </summary>
+        /// <param name="montant"></param>
 
         public void Depot(double montant)
         {
