@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demos_Classes_03042023", "Exo_demo_03042023\Demos_Classes_03042023.csproj", "{DC7B7191-9811-4551-B0C0-4C1C8894BDB0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Demos_Classes_03042023", "Exo_demo_03042023\01_Demos_Classes_03042023.csproj", "{DC7B7191-9811-4551-B0C0-4C1C8894BDB0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demos", "Demos", "{01063D14-3875-4048-A481-4737A0F37B44}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exos", "Exos", "{94D862D3-DF9B-40E2-AC86-4A7E5455A6F5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestion_Banque1", "Gestion_Banque1\Gestion_Banque1.csproj", "{2C5FC31E-A778-460B-B50C-8A6B8085879B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Demos_Indexeurs_03042023", "02_Demos_Indexeurs_03042023\02_Demos_Indexeurs_03042023.csproj", "{69F0902F-5C63-4F39-B91B-8BB8D9292A57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{2C5FC31E-A778-460B-B50C-8A6B8085879B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C5FC31E-A778-460B-B50C-8A6B8085879B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C5FC31E-A778-460B-B50C-8A6B8085879B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69F0902F-5C63-4F39-B91B-8BB8D9292A57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69F0902F-5C63-4F39-B91B-8BB8D9292A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69F0902F-5C63-4F39-B91B-8BB8D9292A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69F0902F-5C63-4F39-B91B-8BB8D9292A57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{DC7B7191-9811-4551-B0C0-4C1C8894BDB0} = {01063D14-3875-4048-A481-4737A0F37B44}
 		{2C5FC31E-A778-460B-B50C-8A6B8085879B} = {94D862D3-DF9B-40E2-AC86-4A7E5455A6F5}
+		{69F0902F-5C63-4F39-B91B-8BB8D9292A57} = {01063D14-3875-4048-A481-4737A0F37B44}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {37962AB4-450A-45C6-8203-B623946C86BE}
