@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Gestion_Banque1.Models
+namespace Gestion_Banque2.Models
 {
     public class Personne
     {

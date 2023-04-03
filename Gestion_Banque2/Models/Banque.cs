@@ -42,7 +42,15 @@ namespace Gestion_Banque2.Models
 
         #region Methodes
 
+        public void Ajouter (Courant c)
+        {
+            _Comptes.Add(c.Numero, c);
+        }
 
+        public void Supprimer (string numero)
+        {
+            _Comptes.Remove(numero);
+        }
 
 
 
