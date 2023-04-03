@@ -3,21 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Demos_Classes_03042023", "Exo_demo_03042023\01_Demos_Classes_03042023.csproj", "{DC7B7191-9811-4551-B0C0-4C1C8894BDB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Demos_Classes_03042023", "Exo_demo_03042023\01_Demos_Classes_03042023.csproj", "{DC7B7191-9811-4551-B0C0-4C1C8894BDB0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demos", "Demos", "{01063D14-3875-4048-A481-4737A0F37B44}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exos", "Exos", "{94D862D3-DF9B-40E2-AC86-4A7E5455A6F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestion_Banque1", "Gestion_Banque1\Gestion_Banque1.csproj", "{2C5FC31E-A778-460B-B50C-8A6B8085879B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gestion_Banque1", "Gestion_Banque1\Gestion_Banque1.csproj", "{2C5FC31E-A778-460B-B50C-8A6B8085879B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Demos_Indexeurs_03042023", "02_Demos_Indexeurs_03042023\02_Demos_Indexeurs_03042023.csproj", "{69F0902F-5C63-4F39-B91B-8BB8D9292A57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Demos_Indexeurs_03042023", "02_Demos_Indexeurs_03042023\02_Demos_Indexeurs_03042023.csproj", "{69F0902F-5C63-4F39-B91B-8BB8D9292A57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestion_Banque2", "Gestion_Banque2\Gestion_Banque2.csproj", "{C49773CC-A438-4C2F-B6D2-46DCF11113E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gestion_Banque2", "Gestion_Banque2\Gestion_Banque2.csproj", "{C49773CC-A438-4C2F-B6D2-46DCF11113E5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Corrections", "Corrections", "{6BDF938E-E701-4D15-99B0-8367113915E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestion_Banque3", "Gestion_Banque3\Gestion_Banque3.csproj", "{DA3DE4E0-039C-4C46-8F75-DB7287440573}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gestion_Banque3", "Gestion_Banque3\Gestion_Banque3.csproj", "{DA3DE4E0-039C-4C46-8F75-DB7287440573}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Net_Core", "..\Demo\Demo.Net_Core\Demo.Net_Core.csproj", "{A102258E-B1D5-451F-809C-D97F603699F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banque_NetCore2023", "..\Banque_NetCore2023-master\Banque_NetCore2023\Banque_NetCore2023.csproj", "{C7D1EF8E-F11A-4EC8-B88C-F3FBF82DAC3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{DA3DE4E0-039C-4C46-8F75-DB7287440573}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA3DE4E0-039C-4C46-8F75-DB7287440573}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA3DE4E0-039C-4C46-8F75-DB7287440573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A102258E-B1D5-451F-809C-D97F603699F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A102258E-B1D5-451F-809C-D97F603699F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A102258E-B1D5-451F-809C-D97F603699F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A102258E-B1D5-451F-809C-D97F603699F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7D1EF8E-F11A-4EC8-B88C-F3FBF82DAC3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D1EF8E-F11A-4EC8-B88C-F3FBF82DAC3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D1EF8E-F11A-4EC8-B88C-F3FBF82DAC3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D1EF8E-F11A-4EC8-B88C-F3FBF82DAC3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +67,8 @@ Global
 		{69F0902F-5C63-4F39-B91B-8BB8D9292A57} = {01063D14-3875-4048-A481-4737A0F37B44}
 		{C49773CC-A438-4C2F-B6D2-46DCF11113E5} = {94D862D3-DF9B-40E2-AC86-4A7E5455A6F5}
 		{DA3DE4E0-039C-4C46-8F75-DB7287440573} = {94D862D3-DF9B-40E2-AC86-4A7E5455A6F5}
+		{A102258E-B1D5-451F-809C-D97F603699F8} = {01063D14-3875-4048-A481-4737A0F37B44}
+		{C7D1EF8E-F11A-4EC8-B88C-F3FBF82DAC3B} = {01063D14-3875-4048-A481-4737A0F37B44}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {37962AB4-450A-45C6-8203-B623946C86BE}
