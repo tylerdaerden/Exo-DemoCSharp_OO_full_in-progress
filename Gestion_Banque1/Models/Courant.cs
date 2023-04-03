@@ -12,8 +12,8 @@ namespace Gestion_Banque1.Models
         #region Attributs
 
         public string _Numero;
-        public double _Solde;
-        private double _LignedeCredit;
+        public double _Solde; // on peut passer par un decimal (reccommandé)
+        private double _LignedeCredit; // on peut passer par un decimal (reccommandé)
         private Personne _Titulaire;
 
         #endregion
@@ -38,22 +38,23 @@ namespace Gestion_Banque1.Models
             set
             {
                 if (value < 0)
-                    Console.WriteLine("Ligne de Crédit insuffisante");
-                return;
+                {
+                    Console.WriteLine("Ligne de Crédit ne peut être négative");
+                    return;
+                }
+                else
+                    _LignedeCredit = value;
             }
         }
-
 
         public Personne Titulaire
         {
             get { return _Titulaire; }
             set { _Titulaire = value; }
         }
-
         #endregion
 
         #region Methodes
-
 
         public void Retrait(double montant)
         {
@@ -62,16 +63,15 @@ namespace Gestion_Banque1.Models
                 Console.WriteLine("montant trop faible");
                 return;
             }
-            else if (_Solde - montant <= -_LignedeCredit)
+            else if ( Solde - montant <= -LignedeCredit)
             {
                 Console.WriteLine("Solde insuffisant");
                 return;
             }
             else
             {
-                _Solde = _Solde - montant;
+                Solde -= montant;
             }
-
         }
 
         public void Depot(double montant)
@@ -82,8 +82,7 @@ namespace Gestion_Banque1.Models
                 return;
 
             }
-
-            _Solde = _Solde + montant;
+            _Solde += montant;
         }
 
         #endregion

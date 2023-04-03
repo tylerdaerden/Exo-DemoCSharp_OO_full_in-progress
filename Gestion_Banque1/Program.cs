@@ -29,7 +29,6 @@ Personne Client2 = new Personne() // autre méthode pour instancier (plus rapide
 
 Personne Client3 = new(); // marche aussi, pas top 
 
-
 Console.WriteLine("________________________");
 
 #endregion
@@ -63,6 +62,20 @@ courant.Depot(100);
 Console.WriteLine($"Solde après depot = {courant.Solde}");
 courant.Retrait(150);
 Console.WriteLine($"Solde après retrait = {courant.Solde}");
+
+
+Courant courant2 = new Courant() // autre méthode instanciation
+{
+    Numero = "1",
+    LignedeCredit = 100,
+    Titulaire = new Personne()
+    {
+        Nom = "Bean",
+        Prenom = "Mister",
+        DateNaiss = new DateTime(1900 , 01 , 01)
+
+    }
+};
 
 
 Console.WriteLine("______________________________________");
