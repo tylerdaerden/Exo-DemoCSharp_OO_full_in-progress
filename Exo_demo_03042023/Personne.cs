@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exo_demo_03042023.Demo
+namespace Exo_demo_03042023
 {
     public enum Genres // bien penser à mettre les enum en public (sinon par défaut elles vont se mettre en internal) => prendre cette habitude
     {
@@ -16,7 +16,7 @@ namespace Exo_demo_03042023.Demo
     public class Personne
     {
 
-        public string Name {  get; set; }
+        public string Name { get; set; }
         public Genres Genre { get; set; }
     }
 }
