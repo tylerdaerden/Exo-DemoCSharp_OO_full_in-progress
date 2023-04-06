@@ -19,9 +19,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Corrections", "Corrections"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gestion_Banque3", "Gestion_Banque3\Gestion_Banque3.csproj", "{DA3DE4E0-039C-4C46-8F75-DB7287440573}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Net_Core", "..\Demo\Demo.Net_Core\Demo.Net_Core.csproj", "{A102258E-B1D5-451F-809C-D97F603699F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03bis Démo surcharge", "..\Demo\Demo.Net_Core\03bis Démo surcharge.csproj", "{A102258E-B1D5-451F-809C-D97F603699F8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banque_NetCore2023", "..\Banque_NetCore2023-master\Banque_NetCore2023\Banque_NetCore2023.csproj", "{C7D1EF8E-F11A-4EC8-B88C-F3FBF82DAC3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_Demos surcharge", "..\Banque_NetCore2023-master\Banque_NetCore2023\03_Demos surcharge.csproj", "{C7D1EF8E-F11A-4EC8-B88C-F3FBF82DAC3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
