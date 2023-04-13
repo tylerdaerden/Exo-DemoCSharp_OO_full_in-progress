@@ -11,7 +11,7 @@ namespace Gestion_Banque4.Models
         #region Attributs
 
         private string _Numero;
-        protected double _Solde;
+        private double _Solde;
         private Personne _Titulaire;
 
 
@@ -28,7 +28,7 @@ namespace Gestion_Banque4.Models
         public double Solde
         {
             get { return _Solde; }
-            set { _Solde = value; }
+            private set { _Solde = value; }
         }
 
         public Personne Titulaire
@@ -50,6 +50,22 @@ namespace Gestion_Banque4.Models
             _Solde += montant;
         }
 
+        public virtual void Retrait(double montant)
+        {
+            if (montant <= 0)
+            {
+                Console.WriteLine("Montant trop faible pour un retrait");
+                return;
+
+            }
+            if (Solde - montant < 0) 
+            {
+                Console.WriteLine("opération impossible , solde insuffisant");
+                return;
+            }
+            _Solde -= montant;
+        }
+
         public static double operator +(double solde, Compte compte)
         {
             //if (c.Solde < 0)
@@ -66,7 +82,6 @@ namespace Gestion_Banque4.Models
             return solde + ((compte.Solde < 0.0) ? 0.0 : compte.Solde);
 
         }
-
 
     }
 }

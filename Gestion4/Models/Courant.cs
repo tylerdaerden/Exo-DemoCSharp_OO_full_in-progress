@@ -13,7 +13,7 @@ namespace Gestion_Banque4.Models
         #region Attributs
 
         //public string _Numero;
-        //public double _Solde; // on peut passer par un decimal (reccommandé)
+        public double _SoldeCourant; // on peut passer par un decimal (reccommandé)
         private double _LignedeCredit; // on peut passer par un decimal (reccommandé)
         //private Personne _Titulaire;
 
@@ -27,12 +27,12 @@ namespace Gestion_Banque4.Models
         //    set { _Numero = value; }
         //}
 
-        //public double Solde
-        //{
-        //    get { return _Solde; }
-        //    set { _Solde = value; }
-        //}
-        
+        public double SoldeCourant
+        {
+            get { return _SoldeCourant; }
+            set { _SoldeCourant = value; }
+        }
+
         //public Personne Titulaire
         //{
         //    get { return _Titulaire; }
@@ -65,7 +65,7 @@ namespace Gestion_Banque4.Models
         /// </summary>
         /// <param name="montant"> el famoso montant, comme dit Yves</param>
 
-        public void Retrait(double montant)
+        public override void Retrait(double montant)
         {
             if (montant <= 0)
             {
@@ -79,7 +79,7 @@ namespace Gestion_Banque4.Models
             }
             else
             {
-                Solde -= montant;
+                SoldeCourant -= montant;
             }
         }
 

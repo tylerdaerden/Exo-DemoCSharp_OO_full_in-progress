@@ -13,19 +13,19 @@ namespace Gestion_Banque4.Models
 		//private Personne _Titulaire = new Personne();
 		private DateTime _Datedernierretrait;
 		//private string _Numero;
-		//private double _Solde;
+		private double _SoldeEpargne;
 
 		#endregion
 
 		#region Props
 
-		//public double Solde
+		public double SoldeEpargne
 
-		//{
-		//	get { return _Solde; }
-		//	private set { _Solde = value; }
-		//	//lecture seule 
-		//}
+		{
+			get { return _SoldeEpargne; }
+			private set { _SoldeEpargne = value; }
+			//lecture seule
+		}
 		//public string Numero
 		//{
 		//	get { return _Numero; }
@@ -46,35 +46,35 @@ namespace Gestion_Banque4.Models
 
         #region Methodes
 
-        public void Retrait (double montant)
+        public override void Retrait (double montant)
 		{
             if (montant <= 0)
             {
                 Console.WriteLine("montant trop faible");
                 return;
             }
-            if (Solde - montant <= 0)
+            if (_SoldeEpargne - montant <= 0)
             {
                 Console.WriteLine("Solde insuffisant");
                 return;
             }
       
             
-                Solde -= montant;
+                _SoldeEpargne -= montant;
 				//je set ma date retrait 👇
 				_Datedernierretrait = DateTime.Now;  
             
 
         }
 
-		//public void Depot (double montant)
+		//public override void Depot(double montant)
 		//{
 		//	if (montant <= 0)
 		//	{
 		//		Console.WriteLine("montant trop faible");
 		//		return;
-		//	}			
-		//		Solde += montant;
+		//	}
+		//	SoldeEpargne += montant;
 
 		//}
 
