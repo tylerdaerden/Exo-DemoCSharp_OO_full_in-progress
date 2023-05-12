@@ -31,7 +31,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gestion_Banque5", "GestionB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gestion_Banque6", "GestionBanque6\Gestion_Banque6.csproj", "{50CA0B2F-D72F-4A50-A171-0E6FEDE23468}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gestion_Banque7 (constructeur)", "Gestion Banque 7\Gestion_Banque7 (constructeur).csproj", "{3A02520D-FFBD-4931-81F7-7E7549F5A9CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gestion_Banque7", "Gestion Banque 7\Gestion_Banque7.csproj", "{3A02520D-FFBD-4931-81F7-7E7549F5A9CB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_Demo_Abstract", "..\Demo\Demo_Abstract\04_Demo_Abstract.csproj", "{0C782ADB-E918-4A38-B666-6FBF1653FA6A}"
 EndProject
@@ -41,7 +41,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Démos ESSENTIALS", "01 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demo_abstract", "..\..\..\..\..\..\03. Essentials IT 2023\01. Cours\08. DOT.Net Labo\02 Labo_Exo\01 Labo DotNet\ESS4IT_C_SHARP_OO\demo_abstract\demo_abstract.csproj", "{BA5CCBD4-F9B0-4C35-91AF-61634D275D99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestion_Banque8 (interfaces)", "Gestion_Banque8\Gestion_Banque8 (interfaces).csproj", "{78444244-3835-4B53-BD79-646CE1CC758A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestion_Banque8", "Gestion_Banque8\Gestion_Banque8.csproj", "{78444244-3835-4B53-BD79-646CE1CC758A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 Corrections Essentials", "00 Corrections Essentials", "{FD42E3C9-8F86-4D6B-9EE5-5FE8C4C7FB4E}"
 EndProject
