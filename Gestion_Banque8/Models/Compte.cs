@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Gestion_Banque8.Models
 {
-    public abstract class Compte
+    public abstract class Compte : ICustomer
     {
         #region Attributs
 
@@ -50,9 +50,9 @@ namespace Gestion_Banque8.Models
             _Solde = solde;
             _Titulaire = titulaire;
         }
-        public Compte(string numero,  Personne titulaire ) : this(numero, 0, titulaire)
+        public Compte(string numero, Personne titulaire) : this(numero, 0, titulaire)
         {
-           // déja présent dans le constructeur frère/soeur 
+            // déja présent dans le constructeur frère/soeur 
         }
         #endregion
 
